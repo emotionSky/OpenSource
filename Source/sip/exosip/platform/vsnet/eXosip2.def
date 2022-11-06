@@ -12,6 +12,7 @@ EXPORTS
      eXosip_listen_addr
      eXosip_set_socket
      eXosip_set_user_agent
+	 eXosip_set_cbsip_message
      eXosip_masquerade_contact
      
      eXosip_add_authentication_info
