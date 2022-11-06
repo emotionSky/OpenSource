@@ -16,6 +16,7 @@ EXPORTS
      eXosip_masquerade_contact
      
      eXosip_add_authentication_info
+	 eXosip_remove_authentication_info
      eXosip_clear_authentication_info
      eXosip_default_action
      eXosip_automatic_action
@@ -38,6 +39,11 @@ EXPORTS
      eXosip_register_build_register
      eXosip_register_send_register
      eXosip_register_remove
+	 
+	 eXosip_call_build_initial_invite
+	 eXosip_call_send_initial_invite
+	 eXosip_call_build_answer
+	 eXosip_call_send_answer
      
      eXosip_message_build_request
      eXosip_message_send_request
