@@ -86,6 +86,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>..\..\..\..\..\Versions\openssl\v1.1.1\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\..\..\..\..\Versions\openssl\v1.1.1\lib;.\v143\x64_Release;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)2</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
