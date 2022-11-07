@@ -27,12 +27,15 @@ EXPORTS
      eXosip_event_free
      eXosip_event_wait
      eXosip_event_get
+	 
+	 eXosip_subscription_remove
      
      eXosip_insubscription_build_answer
      eXosip_insubscription_send_answer
      eXosip_insubscription_build_request
      eXosip_insubscription_build_notify
      eXosip_insubscription_send_request
+	 eXosip_insubscription_remove
      
      eXosip_register_build_initial_register
      eXosip_register_build_initial_register_withqvalue
