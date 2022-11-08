@@ -52,6 +52,7 @@ EXPORTS
 	 eXosip_call_build_request
 	 eXosip_call_send_request
 	 eXosip_call_build_update
+	 eXosip_call_build_options
      
      eXosip_message_build_request
      eXosip_message_send_request
