@@ -49,6 +49,9 @@ EXPORTS
 	 eXosip_call_send_answer
 	 eXosip_call_build_ack
 	 eXosip_call_send_ack
+	 eXosip_call_build_request
+	 eXosip_call_send_request
+	 eXosip_call_build_update
      
      eXosip_message_build_request
      eXosip_message_send_request
