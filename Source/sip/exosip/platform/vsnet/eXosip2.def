@@ -66,6 +66,9 @@ EXPORTS
      eXosip_options_send_request
      eXosip_options_build_answer
      eXosip_options_send_answer
+	 
+	 eXosip_subscription_send_initial_request
+	 eXosip_subscription_build_initial_subscribe
      
      eXosip_transport_set
      eXosip_guess_localip
