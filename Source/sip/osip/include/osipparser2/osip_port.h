@@ -141,7 +141,7 @@ void *_osip_realloc(void *ptr, size_t size, const char *file, unsigned short lin
 #else
 
 /* Check for memory leaks */
-#if defined(_DEBUG) && defined(WIN32)
+#if defined(_DEBUG_MEMORY) && defined(WIN32)
 #define OSIP_MEMORY_DEBUG
 #endif
 
